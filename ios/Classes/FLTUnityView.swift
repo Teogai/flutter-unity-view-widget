@@ -26,7 +26,7 @@ class FLTUnityView: UIView {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-        uView?.removeFromSuperview()
+        //uView?.removeFromSuperview()
         if let uView = uView {
             insertSubview(uView, at: 0)
         }
